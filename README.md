@@ -1,6 +1,10 @@
 # macpreferences
 My mac preferences &amp; settings
 
+## Terminal
+- Oh My SH
+curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+
 ## Sublime
 Sublime 3 Theme:
 https://github.com/kkga/spacegray
