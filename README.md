@@ -1,28 +1,26 @@
 # macpreferences
 My mac preferences &amp; settings
 
-## Terminal
-- Oh My SH
+## Terminal - Oh My ZSH
 curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+
+## Cask
+brew tap caskroom/cask
+
+## Iterm2
+brew cask install iterm2
+
+## Sourcetree
+brew cask install sourcetree
+
+## Spotify
+brew cask install spotify
+
+## Skype
+brew cask install skype
+
+## 
 
 ## Sublime
 Sublime 3 Theme:
 https://github.com/kkga/spacegray
-
-"cmd + ," :
-{
-	"theme": "Spacegray.sublime-theme",
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
-	"font_size": 14,
-	"font_face": "Menlo",
-	"ignored_packages":
-	[
-		"Vintage"
-	]
-}
-
-## IntelliJ
-
-
-## PHPStorm
-https://github.com/daylerees/colour-schemes
