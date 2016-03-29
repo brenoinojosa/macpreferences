@@ -28,6 +28,9 @@ https://github.com/kkga/spacegray
 ## GoLang
 brew install golang &&
 mkdir $HOME/workspace &&
-mkdir /golang/bin &&
-export GOPATH=$HOME/Documents/workspace &&
-export GOBIN=$HOME/Documents/golang/bin &&
+mkdir $HOME/workspace/go &&
+mkdir $HOME/workspace/go/bin &&
+mkdir $HOME/workspace/go/src &&
+mkdir $HOME/workspace/go/pkg &&
+export GOPATH=$HOME/Documents/workspace/go &&
+export GOBIN=$HOME/Documents/workspace/go/bin
