@@ -24,3 +24,10 @@ brew cask install skype
 ## Sublime
 Sublime 3 Theme:
 https://github.com/kkga/spacegray
+
+## GoLang
+brew install golang
+mkdir $HOME/workspace
+mkdir /golang/bin
+export GOPATH=$HOME/workspace
+export GOBIN=/golang/bin
